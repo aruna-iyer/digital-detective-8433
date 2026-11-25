@@ -13,3 +13,5 @@ A mission-based computer studies assignment exploring computer fundamentals, the
 - [Mission 6 — Git and GitHub](mission-06-git-github/README.md)
 - [Mission 7 — Networking](mission-07-networking/README.md)
 - [Mission 8 — Final report](mission-08-final-report/README.md)
+
+Each mission is completed, documented, and committed separately before starting the next one.
