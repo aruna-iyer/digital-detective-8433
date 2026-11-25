@@ -28,7 +28,7 @@ I reviewed the repository structure, checked the mission READMEs and required fi
 - `mission-04-programs/hello.py` is present: Yes
 - `mission-05-numbers-data/number_converter.py` is present and runs: Yes
 - Each mission has a meaningful commit pushed to GitHub: Yes
-- Mission 6 branch and Pull Request activity is visible on GitHub: Yes; Pull Request status: [open / merged]
+- Mission 6 branch and Pull Request activity is visible on GitHub: Yes; Pull Request status:merged
 - Personal information has been removed from public files and screenshots: Yes
 - Repository is public and the latest changes are pushed: Yes
 - Repository URL: https://github.com/aruna-iyer/digital-detective-8433
