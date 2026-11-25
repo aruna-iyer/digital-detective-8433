@@ -15,3 +15,9 @@ A mission-based computer studies assignment exploring computer fundamentals, the
 - [Mission 8 — Final report](mission-08-final-report/README.md)
 
 Each mission is completed, documented, and committed separately before starting the next one.
+
+## My Learning
+
+- I learned how Git records changes in a project.
+- I learned that staging selects changes for a commit.
+- I learned that a branch lets me work on a change separately from the main branch.
