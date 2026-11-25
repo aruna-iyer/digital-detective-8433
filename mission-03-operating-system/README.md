@@ -6,22 +6,21 @@ Explore macOS, running processes, storage, paths, and file permissions. Explain 
 
 ## 2. Work completed
 
-I used macOS System Settings and Activity Monitor to explore my computer. In Terminal, I practised moving between folders, listing files, and checking the current folder. I also checked the permissions of a practice file.
+I used System Settings to check information about my Mac and Terminal to inspect storage, system activity, running processes, paths, and file permissions.
 
 ### System information
 
 | Information explored | What it tells you | My privacy-safe observation |
 |---|---|---|
-| Operating system / system details | Identifies the operating system and information about the computer. | I checked System Settings > General > About. It showed that my computer uses macOS. |
-| Current account identity | Identifies the account being used on the computer. | I checked the account in System Settings. I have not included the account name in this README. |
-| Available and used storage | Shows how much storage is used and how much is available. | I checked System Settings > General > Storage. It displayed the storage used and available on my Mac. |
-| System activity snapshot | Shows apps and processes that are currently running. | I opened Activity Monitor and observed running apps and background processes. |
+| Operating system / system details | Identifies the operating system and information about the computer. | I checked System Settings > General > About and confirmed that my computer uses macOS. |
+| Current account identity | Identifies the account being used on the computer. | I checked my account on the Mac. I have not included the account name in this README. |
+| Available and used storage | Shows storage volumes and how much space is used and available. | I ran `df -h`. It displayed storage sizes and available space in a readable format. I have not copied any private volume or device details here. |
+| System activity snapshot | Shows a brief view of system activity and resource use. | I ran `top -l 1`. It displayed a snapshot of system activity. |
+| Running processes | Shows programs and other tasks currently running on the computer. | I ran `ps aux`. It displayed a list of processes, including a PID column. I have not included usernames or other identifying output. |
 
 ### Processes
 
-A process is a program or task that is currently running on the computer. Activity Monitor displays information about running processes, including their process identifiers (PIDs). A PID is a number used to distinguish one running process from another.
-
-Examples of processes I may see include a web browser and Finder. The list can also include background processes that help macOS work.
+A process is a program or task that is currently running. In the output from `ps aux`, the PID column contains a number that identifies each process. Examples of processes I may see include a web browser, Finder, and background macOS tasks.
 
 ### Paths and permissions
 
@@ -45,18 +44,21 @@ I used `ls -l` to view the practice file’s permissions. In the permission lett
 
 ## 3. Commands / tools used
 
+- System Settings > General > About — checked information about my Mac.
+- System Settings > General > Storage — viewed storage information.
+- `df -h` — displayed used and available storage.
+- `top -l 1` — showed a snapshot of system activity.
+- `ps aux` — listed running processes and their PIDs.
 - `pwd` — showed the folder I was working in.
-- `ls` — listed the files and folders in that location.
-- `cd` — moved me into another folder.
+- `ls` — listed files and folders.
+- `cd` — moved between folders.
 - `ls -l` — displayed file permissions and other file details.
-- System Settings > General > About — showed information about my Mac.
-- System Settings > General > Storage — showed storage use and available space.
-- Activity Monitor — showed apps and other processes that were running.
-- VS Code — used to write this README.
+- Activity Monitor — viewed running apps and processes.
+- VS Code — wrote this README.
 
 ## 4. My understanding
 
-The operating system manages programs, memory, devices, files, and permissions. A process is a running program, and its PID helps identify it. Absolute paths start from the filesystem root, while relative paths depend on the current folder. File permissions show whether a user can read, write, or execute a file.
+The operating system manages programs, memory, devices, files, and permissions. A process is a running program or task, and its PID helps identify it in the process list. The `df -h` command reports storage use, while `top -l 1` shows a brief system activity snapshot. Absolute paths start from the filesystem root, while relative paths depend on the current folder.
 
 ## 5. Difficulties faced
 
